@@ -1,0 +1,18 @@
+slappy_config.rb
+nohup.out
+ignore.rb
+rsync_ignore.txt
+rsync.sh
+
+# Ignore other unneeded files.
+doc/
+*.swp
+.project
+.DS_Store
+.idea
+.secret
+
+# Ignore Emacs' temp files.
+\#*\#
+.\#*
+*~
